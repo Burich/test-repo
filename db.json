@@ -1,5 +1,46 @@
 {
-  "users": [
-    { "fullname": "A B C", "login": "a" }
-  ]
+    "users": [ { 
+        "fullname": "Иванов Иван Иванович", 
+        "login": "ivan", 
+        "email": "ivan@gmail.com" 
+    }, { 
+        "fullname": "Петров Петр Петрович", 
+        "login": "petr", 
+        "email": "petr@gmail.com" 
+    }, { 
+        "fullname": "Сидоров Сидор Сидорович", 
+        "login": "sidor", 
+        "email": "sidor@gmail.com" 
+    } ],
+    "letters": [ {
+        "title": "titleA",
+        "body": "bodyA",
+        "from": "sidor@gmail.com",
+        "to": "petr@gmail.com"
+    }, {
+        "title": "titleB",
+        "body": "bodyB",
+        "from": "ivan@gmail.com",
+        "to": "sidor@gmail.com"
+    }, {
+        "title": "titleC",
+        "body": "bodyC",
+        "from": "petr@gmail.com",
+        "to": "sidor@gmail.com"
+    }, {
+        "title": "titleD",
+        "body": "bodyD",
+        "from": "petr@gmail.com",
+        "to": "fake@gmail.com"
+    }, {
+        "title": "titleE",
+        "body": "bodyE",
+        "from": "sidor@gmail.com",
+        "to": "ivan@gmail.com"
+    }, {
+        "title": "titleF",
+        "body": "bodyF",
+        "from": "sidor@gmail.com",
+        "to": "fake@gmail.com"
+    } ]
 }
